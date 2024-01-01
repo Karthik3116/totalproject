@@ -1,0 +1,10 @@
+.custom-card {
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+}
