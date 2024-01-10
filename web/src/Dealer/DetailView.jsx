@@ -335,7 +335,7 @@ const DetailView = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`https://databasetyre.run-ap-south1.goorm.io/getdb/${registrationNumber}`);
+        const response = await fetch(`http://localhost:8000/getdb/${registrationNumber}`);
         const result = await response.json();
         setUserData(result);
       } catch (error) {

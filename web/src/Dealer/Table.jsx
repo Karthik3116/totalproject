@@ -507,7 +507,7 @@ const Table = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://databasetyre.run-ap-south1.goorm.io/getdb");
+        const response = await fetch("http://localhost:8000/getdb");
         const result = await response.json();
         setData(result);
       } catch (error) {

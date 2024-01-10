@@ -741,7 +741,7 @@ const Tg = () => {
 
     try {
       const response = await axios.post(
-        "https://databasetyre.run-ap-south1.goorm.io/uploads",
+        "http://localhost:8000/uploads",
         formData,
         {
           headers: {

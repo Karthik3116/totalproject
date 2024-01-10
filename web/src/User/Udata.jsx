@@ -2231,7 +2231,7 @@ function Udata() {
     }
 
     axios
-      .get(`https://databasetyre.run-ap-south1.goorm.io/search?registrationNumber=${registrationNumber}`)
+      .get(`http://localhost:8000/search?registrationNumber=${registrationNumber}`)
       .then((response) => {
         const result = response.data;
 
